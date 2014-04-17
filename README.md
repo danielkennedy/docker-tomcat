@@ -4,7 +4,7 @@ This is a simple docker image file that gives you a repeatable Apache Tomcat
 container running in a CentOS environment. Laying down your application or
 any specific configuration details are beyond the scope of this example.
 
-# Dependencies
+## Dependencies
 You'll obviously need a working version of [Docker](http://docker.io) to follow
 this example. You can follow the [documentation](http://docs.docker.io/installation/#installation)
 to get it setup or, if you're on an Ubuntu 12.04 machine (my test box), you can simply:
@@ -12,7 +12,7 @@ to get it setup or, if you're on an Ubuntu 12.04 machine (my test box), you can 
 curl -s https://get.docker.io/ubuntu/ | sudo sh
 ```
 
-# Installation
+## Installation
 ```
 $ git clone https://github.com/danielkennedy/docker-tomcat.git
 $ cd docker-tomcat
@@ -23,7 +23,7 @@ $ sudo docker run -d -p 8080:8080 docker-tomcat
 $ sudo docker ps
 ```
 
-# Verification
+## Verification
 Of course, the quickest way to verify that Tomcat is listening and the port is
 exposed is to simply point a browser to [localhost on port 8080](https://www.apache.org/dist/tomcat/tomcat-7/v7.0.53/bin/apache-tomcat-7.0.53.tar.gz). Beyond that, you can:
 ```
@@ -42,5 +42,5 @@ Saving to: `index.html'
 2014-04-17 12:53:51 (137 MB/s) - `index.html' saved [11197]
 ```
 
-# Next steps
+## Next steps
 Now you need to deployyour web application. Chef? More Docker? Your choice.
