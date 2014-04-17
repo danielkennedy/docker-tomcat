@@ -1,9 +1,10 @@
 docker-tomcat
 =============
 This is a simple docker image file that gives you a repeatable 
-[Java](http://java.com/en/download/index.jsp)/[Tomcat](http://tomcat.apache.org/download-70.cgi)
-container running in a CentOS environment. Laying down your application or
-any specific configuration details are beyond the scope of this example.
+[Java](http://www.java.com)/[Tomcat](http://tomcat.apache.org)
+container running in a [CentOS](http://www.centos.org/) environment.
+Laying down your application or any specific configuration details
+are beyond the scope of this example.
 
 ## Dependencies
 You'll obviously need a working version of [Docker](http://docker.io) to follow
