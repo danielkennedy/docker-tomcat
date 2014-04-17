@@ -1,6 +1,7 @@
 docker-tomcat
 =============
-This is a simple docker image file that gives you a repeatable Apache Tomcat 
+This is a simple docker image file that gives you a repeatable 
+[Java](http://java.com/en/download/index.jsp)/[Tomcat](http://tomcat.apache.org/download-70.cgi)
 container running in a CentOS environment. Laying down your application or
 any specific configuration details are beyond the scope of this example.
 
