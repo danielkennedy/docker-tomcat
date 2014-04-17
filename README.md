@@ -25,7 +25,7 @@ $ sudo docker ps
 
 ## Verification
 Of course, the quickest way to verify that Tomcat is listening and the port is
-exposed is to simply point a browser to [localhost on port 8080](https://www.apache.org/dist/tomcat/tomcat-7/v7.0.53/bin/apache-tomcat-7.0.53.tar.gz). Beyond that, you can:
+exposed is to simply point a browser to [localhost on port 8080](http://localhost:8080). Beyond that, you can:
 ```
 $ sudo netstat -antp | grep 8080
 tcp6       0      0 :::8080                 :::*                    LISTEN      629/docker
